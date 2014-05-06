@@ -21,6 +21,8 @@
 		9E2E64C91890297D00D6A93C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2E64AB1890297D00D6A93C /* UIKit.framework */; };
 		9E2E64D11890297D00D6A93C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9E2E64CF1890297D00D6A93C /* InfoPlist.strings */; };
 		9E2E64D31890297D00D6A93C /* NSAPrivacyViolatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E64D21890297D00D6A93C /* NSAPrivacyViolatorTests.m */; };
+		9E2E64DE18903F4F00D6A93C /* GuiltyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E2E64DD18903F4F00D6A93C /* GuiltyViewController.m */; };
+		9E2E64E01890439000D6A93C /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E2E64DF1890439000D6A93C /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		9E2E64CE1890297D00D6A93C /* NSAPrivacyViolatorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NSAPrivacyViolatorTests-Info.plist"; sourceTree = "<group>"; };
 		9E2E64D01890297D00D6A93C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9E2E64D21890297D00D6A93C /* NSAPrivacyViolatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSAPrivacyViolatorTests.m; sourceTree = "<group>"; };
+		9E2E64DC18903F4F00D6A93C /* GuiltyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuiltyViewController.h; sourceTree = "<group>"; };
+		9E2E64DD18903F4F00D6A93C /* GuiltyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuiltyViewController.m; sourceTree = "<group>"; };
+		9E2E64DF1890439000D6A93C /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E2E64E01890439000D6A93C /* MapKit.framework in Frameworks */,
 				9E2E64AA1890297D00D6A93C /* CoreGraphics.framework in Frameworks */,
 				9E2E64AC1890297D00D6A93C /* UIKit.framework in Frameworks */,
 				9E2E64A81890297D00D6A93C /* Foundation.framework in Frameworks */,
@@ -101,6 +107,7 @@
 		9E2E64A61890297D00D6A93C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E2E64DF1890439000D6A93C /* MapKit.framework */,
 				9E2E64A71890297D00D6A93C /* Foundation.framework */,
 				9E2E64A91890297D00D6A93C /* CoreGraphics.framework */,
 				9E2E64AB1890297D00D6A93C /* UIKit.framework */,
@@ -115,6 +122,8 @@
 				9E2E64B61890297D00D6A93C /* AppDelegate.h */,
 				9E2E64B71890297D00D6A93C /* AppDelegate.m */,
 				9E2E64B91890297D00D6A93C /* Main.storyboard */,
+				9E2E64DC18903F4F00D6A93C /* GuiltyViewController.h */,
+				9E2E64DD18903F4F00D6A93C /* GuiltyViewController.m */,
 				9E2E64BC1890297D00D6A93C /* ViewController.h */,
 				9E2E64BD1890297D00D6A93C /* ViewController.m */,
 				9E2E64BF1890297D00D6A93C /* Images.xcassets */,
@@ -251,6 +260,7 @@
 			files = (
 				9E2E64BE1890297D00D6A93C /* ViewController.m in Sources */,
 				9E2E64B81890297D00D6A93C /* AppDelegate.m in Sources */,
+				9E2E64DE18903F4F00D6A93C /* GuiltyViewController.m in Sources */,
 				9E2E64B41890297D00D6A93C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
